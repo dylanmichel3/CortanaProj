@@ -1,0 +1,283 @@
+﻿<Page
+    x:Class="Techtana.CompRequest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Techtana"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF273A4D">
+
+        
+
+            <Button HorizontalAlignment="Left" Height="40" Margin="10,30,0,0" VerticalAlignment="Top" Width="502"
+        
+                      Background="{x:Null}" Click="Button_Click_1" >
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  How do I request a computer? " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,80,0,0" VerticalAlignment="Top" Width="502"
+        
+                     Grid.Column="0" Background="{x:Null}" Click="Button_Click_2">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  How long should my request take?  (Computer) " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,130,0,0" VerticalAlignment="Top" Width="502"
+        
+                     Grid.Column="0" Background="{x:Null}" Click="Button_Click_3">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  How do I request a computer accessory or non-standard item? " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,180,0,0" VerticalAlignment="Top" Width="690"
+        
+                     Grid.Column="0" Background="{x:Null}" Click="Button_Click_4">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  My computer is not working - how do I replace it? (includes accessories and batteries) " Foreground="White" Width="641" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,230,0,0" VerticalAlignment="Top" Width="502"
+        
+                     Grid.Column="0" Background="{x:Null}" Click="Button_Click_5">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  Where can I find detailed product specifications? " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+      
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,280,0,0" VerticalAlignment="Top" Width="502"
+        
+                      Background="{x:Null}" Click="Button_Click_6">
+            
+
+                <StackPanel Orientation="Horizontal">
+
+                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                    <TextBlock Text="  What does it mean when a device is under evaluation? " Foreground="White" Width="452" />
+                </StackPanel>
+            
+        </Button>
+        
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,330,0,0" VerticalAlignment="Top" Width="502"
+        
+                    Background="{x:Null}" Click="Button_Click_7">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  I cannot change the country - why? " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,380,0,0" VerticalAlignment="Top" Width="502"
+        
+                     Grid.Column="0" Background="{x:Null}" Click="Button_Click_8">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  How do I change the shipping address? " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,430,0,0" VerticalAlignment="Top" Width="502"
+        
+                     Grid.Column="0" Background="{x:Null}" Click="Button_Click_9">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  How do I change the address on an order I already submitted? " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,480,0,0" VerticalAlignment="Top" Width="502"
+        
+                     Grid.Column="0" Background="{x:Null}" Click="Button_Click_10">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  How do I cancel a request ? " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,530,0,0" VerticalAlignment="Top" Width="502"
+        
+                     Grid.Column="0" Background="{x:Null}" Click="Button_Click_11">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  I did not get what I ordered - why can substitutions be made? " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        
+
+
+        <Button Content="Request Computers Page" HorizontalAlignment="Left" Height="40" Margin="918,30,0,0" VerticalAlignment="Top" Width="352" Click="Button_Click" Background="#3389F3E0" BorderBrush="#FFFF0707"/>
+
+        
+        
+
+        <TextBlock Name ="B1" HorizontalAlignment="Left" Height="536" Margin="837,130,0,0" TextWrapping="Wrap" Text="How do I request a computer? &#10;&#10;1.  Go to MyTech (http://mytech.ge.com) and from the main menu select:&#10;
+
+Request > Computers&#10;&#10;
+
+2.  Browse the catalog of products available for the current user &#10;&#10;
+
+3.  Click &quot;Add to Cart&quot; when you have made your choice &#10;&#10;
+
+4.  Select accessories and configuration settings used to prepare your order &#10;&#10;
+
+5.  Click &quot;Checkout Now&quot; to review the order and confirm/edit the shipping address &#10;&#10;
+
+6.  Click &quot;Submit Order&quot; to send the request to approvers, if required, then to the vendor for fulfillment" VerticalAlignment="Top" Width="424" Visibility="Collapsed" />
+
+        
+            
+            <TextBlock Name ="B2" HorizontalAlignment="Left" Height="536" Margin="837,130,0,0" TextWrapping="Wrap" Text="How long should my computer request take? &#10;&#10;Fulfillment times vary by type and region. Once approved orders could take up to:&#10;&#10;
+
+- New Hire - Up to 3 business days for configuration plus transit time depending on region&#10;&#10;
+
+- Additional Computer - Up to 5 business days for configuration plus transit time depending on region&#10;&#10;
+
+- Refresh - Up to 30 business days for configuration plus transit time depending on region&#10;&#10;
+
+- Special Order - Up to 15 business days for configuration plus transit time depending on region&#10;&#10;
+
+ 
+
+** Note:
+
+Target fulfillment date is an estimate - not a guaranteed date.  This date may change due to inventory shortages or backlogs due to unexpected events.
+Our vendors will update that date as needed.  Priority will always been given to new computer requests over refreshes.  If your current computer is having issues please get assistance from deskside support by creating a detailed ticket at http://helpdesk.ge.com. 
+                   
+                   &#10;&#10;
+
+" VerticalAlignment="Top" Width="424" Visibility="Collapsed" />
+
+        <TextBlock Name ="B3" HorizontalAlignment="Left" Height="536" Margin="837,130,0,0" TextWrapping="Wrap" Text="How do I request a computer accessory or non-standard item? &#10;&#10;US, Canada, Europe:&#10;&#10;
+
+Use the main menu to go to Request > Accessories and Special Order page.  If desired item is not listed, or not available per business policy, select &quot;Non-Standard&quot; then submit request.&#10;&#10;
+
+• GE Healthcare - Please use SSP.  For wi-fi only iPad requests visit GE Healthcare Tablet Community.&#10;&#10;
+
+ 
+
+All Others:&#10;&#10;
+
+Processes vary widely by business and location.  Consult with your local IT leader for available options.&#10;&#10;
+
+• GE Oil &amp; Gas - Per business policy accessory and special orders are not permitted at this time due to cost out initiatives &#10;&#10;
+
+• GE Power - For power supply requests, please direct user to submit their request under Non-Standard > Non-Standard Accessory
+                   
+
+" VerticalAlignment="Top" Width="424" Visibility="Collapsed" />
+
+        <TextBlock Name ="B4" HorizontalAlignment="Left" Height="536" Margin="837,130,0,0" TextWrapping="Wrap" 
+                   Text="My computer is not working - how do I replace it? (includes accessories and batteries)&#10;&#10;  If your current computer or accessory is having issues please get assistance from deskside support by creating a detailed ticket at http://helpdesk.ge.com.  The technician will handle warranty replacements as needed, including laptop batteries." 
+                   
+                   
+                   
+                   
+                   VerticalAlignment="Top" Width="424" Visibility="Collapsed" />
+
+        <TextBlock Name ="B5" HorizontalAlignment="Left" Height="536" Margin="837,130,0,0" TextWrapping="Wrap" 
+                   Text="Where can I find detailed product specifications?&#10;&#10;  Click &quot;Learn More&quot; next to any particular catalog item to review general &quot;Good To Know&quot; tips and &quot;Tech Specs&quot; for that model.  If more detailed information is required please review the MyTech Computer Guide (KB1055353).&#10;&#10;
+
+ 
+
+** Note:&#10;&#10; 
+
+Based on company computer redeploy rules, it is possible that manufacturer substitutions will be provided based on current availability " 
+                   
+                   
+                   
+                   
+                   VerticalAlignment="Top" Width="424" Visibility="Collapsed" />
+
+        <TextBlock Name ="B6" HorizontalAlignment="Left" Height="536" Margin="837,130,0,0" TextWrapping="Wrap" 
+                   Text="What does it mean when a device is under evaluation?&#10;&#10;  The device is currently under evaluation with no confirmed date for availability. The product is being tested against Win 10 with a goal to offer sometime in Q1 2017. As soon as the product is certified and available to order, users will be able to select the product through MyTech. " 
+                   
+                   
+                   
+                   
+                   VerticalAlignment="Top" Width="424" Visibility="Collapsed" />
+
+        <TextBlock Name ="B7" HorizontalAlignment="Left" Height="536" Margin="837,130,0,0" TextWrapping="Wrap" 
+                   Text="I cannot change the country - why?&#10;&#10; Catalog information varies based on the business and location information of the current user.  If country is incorrect you must start over with your order to ensure all validation rules for availability are checked.&#10;&#10;
+
+ 
+
+** See also &quot;What can I do in MyTech?&quot;  and &quot;How do I change who I am ordering for?&quot; " 
+                   
+                   
+                   
+                   
+                   VerticalAlignment="Top" Width="424" Visibility="Collapsed" />
+
+        <TextBlock Name ="B8" HorizontalAlignment="Left" Height="536" Margin="837,130,0,0" TextWrapping="Wrap" 
+                   Text="How do I change the shipping address?&#10;&#10; On the View Cart page where you do a final review of the order you can edit the shipping address by clicking the pencil icon&#10;&#10;
+
+Outside the US and Canada - computer orders can only be shipped to GE addresses in the drop-down lists&#10;&#10;
+
+In the US and Canada - computer orders can be shipped to GE addresses or users can select &quot;Other&quot; from the bottom of the list to manually enter an address" 
+                   
+                   
+                   
+                   
+                   VerticalAlignment="Top" Width="424" Visibility="Collapsed" />
+
+        <TextBlock Name ="B9" HorizontalAlignment="Left" Height="536" Margin="837,130,0,0" TextWrapping="Wrap" 
+                   Text="How do I change the address on an order I already submitted?&#10;&#10; Outside the US and Canada a technician will contact the requester to confirm the address.&#10;&#10;
+
+In the US and Canada you will need to quickly cancel the request and submit a new one with the correct address.&#10;&#10;  Please refer to &quot;How do I cancel a request?&quot; for further details." 
+                   
+                   
+                   
+                   
+                   VerticalAlignment="Top" Width="424" Visibility="Collapsed" />
+
+        <TextBlock Name ="B10" HorizontalAlignment="Left" Height="536" Margin="837,130,0,0" TextWrapping="Wrap" 
+                   Text="How do I cancel a request ?&#10;&#10; Click &quot;My Requests&quot; in the MyTech header.  For each request, you will see a &quot;Cancel Request&quot; link.  If this link is disabled it means that the order is in process of being fulfilled and can no longer be cancelled or changed.&#10;&#10;
+
+If you are unable to cancel a request but do not require the device then after delivery please submit a proper request to return it:&#10; Go to Manage > Computers, locate the computer record and select &quot;Pickup&quot; from the actions list." 
+                   
+                   
+                   
+                   
+                   VerticalAlignment="Top" Width="424" Visibility="Collapsed" />
+
+        <TextBlock Name ="B11" HorizontalAlignment="Left" Height="536" Margin="837,130,0,0" TextWrapping="Wrap" 
+                   Text="I did not get what I ordered - why can substitutions be made?&#10;&#10;Computers are often returned before the end of the lease, for example when someone leaves the company.  When a request for a new computer is being fulfilled, if one is available in unassigned inventory and it is within business policy guidelines then our vendors will substitute orders with a similar model. This is to help the businesses manage overall lease costs.&#10;&#10;
+If you receive an unwanted device you can submit a new request but you still run the risk that a substitution will be available and your business would continue to pay for the device you return until it can be reissued and reassigned. " 
+                   
+                   
+                   
+                   
+                   VerticalAlignment="Top" Width="424" Visibility="Collapsed" />
+
+        
+            
+        
+
+    </Grid>
+</Page>

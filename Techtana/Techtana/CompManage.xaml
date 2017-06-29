@@ -1,0 +1,133 @@
+﻿<Page
+    x:Class="Techtana.CompManage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Techtana"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF273A4D">
+
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,30,0,0" VerticalAlignment="Top" Width="502"
+        
+                      Background="{x:Null}">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  Report Missing Device (covers: lost, stolen and ownership errors) " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,80,0,0" VerticalAlignment="Top" Width="502"
+        
+                      Background="{x:Null}">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  One of the computers assigned to me is not mine " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,130,0,0" VerticalAlignment="Top" Width="502"
+        
+                      Background="{x:Null}">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  The computer I am using is not assigned to me " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,180,0,0" VerticalAlignment="Top" Width="502"
+        
+                      Background="{x:Null}">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  My computer is not working - how do I replace it? (includes laptop battery) " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,230,0,0" VerticalAlignment="Top" Width="502"
+        
+                     Background="{x:Null}">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="  Move (change known location of a computer) " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,280,0,0" VerticalAlignment="Top" Width="502"
+        
+                      Background="{x:Null}">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="   Pickup (return a computer) " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,330,0,0" VerticalAlignment="Top" Width="502"
+        
+                      Background="{x:Null}">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="   How do I return accessories? " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,380,0,0" VerticalAlignment="Top" Width="502"
+        
+                      Background="{x:Null}">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="   Reassign (change owner to someone else) " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,430,0,0" VerticalAlignment="Top" Width="502"
+        
+                     Background="{x:Null}">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="   Refresh/Upgrade (replace an existing device) " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,480,0,0" VerticalAlignment="Top" Width="502"
+        
+                      Background="{x:Null}">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="   Extend Refresh Date (postpone reminders to refresh) " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button HorizontalAlignment="Left" Height="36" Margin="10,530,0,0" VerticalAlignment="Top" Width="502"
+        
+                      Background="{x:Null}">
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE76C;" />
+                <TextBlock Text="   Computer cannot be found in MyTech " Foreground="White" Width="452" />
+            </StackPanel>
+        </Button>
+
+        <Button Content="Manage Computers Page" 
+                HorizontalAlignment="Left" 
+                Height="40" Margin="918,30,0,0" 
+                VerticalAlignment="Top" Width="352" 
+                Click="CManage_Click" 
+                Background="#3389F3E0" BorderBrush="#FFFF2D2D"/>
+
+
+
+    </Grid>
+</Page>

@@ -1,0 +1,2 @@
+C:\Users\502707467\Desktop\Techtana\Techtana\Techtana.csproj;x86
+C:\Users\502707467\Desktop\Techtana\TechtanaRT\TechtanaRT.csproj;x86

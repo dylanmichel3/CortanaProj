@@ -1,0 +1,100 @@
+﻿<Page
+    x:Class="Techtana.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Techtana"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style TargetType="Button" x:Key="NavigationButtonStyle">
+            <Setter Property="Background" Value="#FF273A4D" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Stretch" />
+            <Setter Property="BorderBrush" Value="#FF6EE4DF" />
+            <Setter Property="BorderThickness" Value="0,0,2,0" />
+        </Style>
+        <Style TargetType="Image" x:Key="IconImageStyle">
+            <Setter Property="Height" Value="20" />
+            <Setter Property="Width" Value="20" />
+            <Setter Property="Margin" Value="0,0,10,0" />
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="#FF273A4D">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Background="Black" BorderBrush="#FFB1E8FD">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+
+            <Button x:ConnectionId='2' Name="HomeButton" 
+                                             Grid.Column="0" Style="{StaticResource NavigationButtonStyle}" Background="#FF45459C" BorderBrush="White">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE10F;" />
+                    <TextBlock Text="      Home" Foreground="White" />
+                </StackPanel>
+            </Button>
+
+            <Button x:ConnectionId='3' Name="CommButton" 
+                                             Grid.Column="1" Style="{StaticResource NavigationButtonStyle}" Background="#FF579B1E" BorderBrush="White">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Assets\donut-icon.png" Style="{StaticResource IconImageStyle}" VerticalAlignment="Top" />
+                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xE13A;"  />
+                    <TextBlock Text="    Communications" Foreground="White" />
+                </StackPanel>
+            </Button>
+
+            <Button x:ConnectionId='4' Name="CompButton" 
+                                             Grid.Column="2" Style="{StaticResource NavigationButtonStyle}" Background="#FFD26625" BorderBrush="White">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Assets/.png" Style="{StaticResource IconImageStyle}" />
+                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xEC4E;"  />
+                    <TextBlock Text="     Computers" Foreground="White" />
+                </StackPanel>
+            </Button>
+
+            <Button x:ConnectionId='5' Name="ConnButton" 
+                                             Grid.Column="3" Style="{StaticResource NavigationButtonStyle}" Background="#FFA04648" BorderBrush="White">
+                <StackPanel Orientation="Horizontal">
+
+                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xEC3F;"  />
+                    <TextBlock Text="  Connectivity" Foreground="White" />
+                </StackPanel>
+            </Button>
+
+            <Button x:ConnectionId='6' Name="SwButton" 
+                                           Grid.Column="4" Style="{StaticResource NavigationButtonStyle}" Background="#FFFFAE00" BorderBrush="White">
+                <StackPanel Orientation="Horizontal">
+                    <Image Style="{StaticResource IconImageStyle}" />
+                    <Image Source="Assets/complete-icon.png" Style="{StaticResource IconImageStyle}" />
+                    <TextBlock Text="Software" Foreground="White" />
+                </StackPanel>
+            </Button>
+
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Frame x:ConnectionId='1' Name="Guide"></Frame>
+            <Image Source="Assets/teck.jpg" Grid.Column="1" NineGrid="0" Stretch="UniformToFill" />
+        </Grid>
+
+
+    </Grid>
+
+</Page>
+

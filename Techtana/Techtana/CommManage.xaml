@@ -1,0 +1,72 @@
+﻿<Page
+    x:Class="Techtana.CommManage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Techtana"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style TargetType="Button" x:Key="NavigationButtonStyle">
+            <Setter Property="Background" Value="#FF273A4D" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Stretch" />
+            <Setter Property="BorderBrush" Value="#FF6EE4DF" />
+            <Setter Property="BorderThickness" Value="0,0,2,0" />
+        </Style>
+        <Style TargetType="Image" x:Key="IconImageStyle">
+            <Setter Property="Height" Value="20" />
+            <Setter Property="Width" Value="20" />
+            <Setter Property="Margin" Value="0,0,10,0" />
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="#FF273A4D">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid Background="Black" BorderBrush="#FFB1E8FD">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+
+            </Grid.ColumnDefinitions>
+
+
+            <Button Name="MMD" 
+                    Click="RequestButton_Click" Grid.Column="0" Style="{StaticResource NavigationButtonStyle}" Background="#FF4377A8" BorderBrush="White">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Assets\.png" Style="{StaticResource IconImageStyle}" VerticalAlignment="Top" />
+                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xEC7E;" />
+                    <TextBlock Text="      Mobile Devices" Foreground="White" />
+                </StackPanel>
+            </Button>
+
+            <Button Name="MC" 
+                    Click="ManageButton_Click" Grid.Column="1" Style="{StaticResource NavigationButtonStyle}" Background="#FF005EB8" BorderBrush="White">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Assets\.png" Style="{StaticResource IconImageStyle}" VerticalAlignment="Top" />
+                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="20" Text="&#xEC16;" />
+                    <TextBlock Text="      Conferencing" Foreground="White" />
+                </StackPanel>
+            </Button>
+
+
+
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Frame Name="Guide"></Frame>
+
+        </Grid>
+
+    </Grid>
+
+</Page>
